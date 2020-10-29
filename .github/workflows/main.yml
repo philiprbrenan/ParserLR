@@ -30,6 +30,10 @@ jobs:
       run: |
         sudo cpan install Data::Table::Text
 
+    - name: InstallMathCartesianProduct
+      run: |
+        sudo cpan install Math::Cartesian::Product
+
 
 
     - name: Test
